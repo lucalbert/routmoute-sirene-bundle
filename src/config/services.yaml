@@ -1,0 +1,7 @@
+services:
+    Routmoute\Bundle\RoutmouteSireneBundle\Service\RoutmouteSireneApiService:
+        class: Routmoute\Bundle\RoutmouteSireneBundle\Service\RoutmouteSireneApiService
+        autowire: true
+        arguments:
+            $consumer_key: '%routmoute_sirene.consumer_key%'
+            $consumer_secret: '%routmoute_sirene.consumer_secret%'

@@ -1,0 +1,33 @@
+{
+    "name": "routmoute/routmoute-sirene-bundle",
+    "description": "Bundle to use INSEE Sirene API with Symfony 6",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "keywords": ["symfony", "bundle", "sirene", "insee", "api", "routmoute"],
+    "homepage": "https://github.com/routmoute/routmoute-sirene-bundle",
+    "autoload": {
+        "psr-4": {
+            "Routmoute\\Bundle\\RoutmouteSireneBundle\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Routmoute\\Bundle\\RoutmouteSireneBundle\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "symfony/http-client": "^6.0",
+        "symfony/http-kernel": "^6.0",
+        "symfony/config": "^6.0",
+        "symfony/dependency-injection": "^6.0",
+        "symfony/cache": "^6.0"
+    },
+    "require-dev": {
+        "symfony/phpunit-bridge": "^6.0"
+    },
+    "extra": {
+        "symfony": {
+            "allow-contrib": "true"
+        }
+    }
+}
