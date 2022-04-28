@@ -47,6 +47,6 @@ jobs:
       - name: Install dependencies
         run: composer update --prefer-dist --no-progress
 
-      - name: Unit Tests
-        run: vendor/bin/simple-phpunit -c phpunit.xml.dist --testsuite all
-        if: always()
+#      - name: Unit Tests
+#        run: vendor/bin/simple-phpunit -c phpunit.xml.dist --testsuite all
+#        if: always()
