@@ -2,10 +2,6 @@
 
 namespace Routmoute\Bundle\RoutmouteSireneBundle\Exception;
 
-final class SireneAuthFailedException extends \Exception
+final class SireneAuthFailedException extends SireneException
 {
-    public function getReason(): string
-    {
-        return 'Authentication failed.';
-    }
 }

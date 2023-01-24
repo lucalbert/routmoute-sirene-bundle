@@ -2,10 +2,6 @@
 
 namespace Routmoute\Bundle\RoutmouteSireneBundle\Exception;
 
-final class SireneInvalidTokenException extends \Exception
+final class SireneInvalidTokenException extends SireneException
 {
-    public function getReason(): string
-    {
-        return 'Invalid access token.';
-    }
 }

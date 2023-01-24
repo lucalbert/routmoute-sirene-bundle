@@ -2,10 +2,6 @@
 
 namespace Routmoute\Bundle\RoutmouteSireneBundle\Exception;
 
-final class SireneMaxQuotaException extends \Exception
+final class SireneMaxQuotaException extends SireneException
 {
-    public function getReason(): string
-    {
-        return 'API query quota exceeded.';
-    }
 }
