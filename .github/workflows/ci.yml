@@ -33,7 +33,7 @@ jobs:
       - name: Get PHP Version
         run: |
           ver=$(php -v | grep -oP '(?<=PHP )\d.\d')
-          echo "::set-output name=version::$ver"
+          echo "version=$ver" >> $GITHUB_OUTPUT
         id: php-ver
 
       - name: Using PHP Version from matrix
