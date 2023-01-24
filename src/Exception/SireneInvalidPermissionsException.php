@@ -2,10 +2,6 @@
 
 namespace Routmoute\Bundle\RoutmouteSireneBundle\Exception;
 
-final class SireneInvalidPermissionsException extends \Exception
+final class SireneInvalidPermissionsException extends SireneException
 {
-    public function getReason(): string
-    {
-        return 'Insufficient rights to view data from this unit.';
-    }
 }

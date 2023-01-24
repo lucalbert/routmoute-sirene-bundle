@@ -2,10 +2,6 @@
 
 namespace Routmoute\Bundle\RoutmouteSireneBundle\Exception;
 
-final class SireneNotExistException extends \Exception
+final class SireneNotExistException extends SireneException
 {
-    public function getReason(): string
-    {
-        return 'Company not found in the Sirene database.';
-    }
 }

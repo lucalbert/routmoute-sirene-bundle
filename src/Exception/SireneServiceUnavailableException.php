@@ -2,10 +2,6 @@
 
 namespace Routmoute\Bundle\RoutmouteSireneBundle\Exception;
 
-final class SireneServiceUnavailableException extends \Exception
+final class SireneServiceUnavailableException extends SireneException
 {
-    public function getReason(): string
-    {
-        return 'Service unavailable.';
-    }
 }

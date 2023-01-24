@@ -2,10 +2,6 @@
 
 namespace Routmoute\Bundle\RoutmouteSireneBundle\Exception;
 
-final class SireneMisformattedParametersException extends \Exception
+final class SireneMisformattedParametersException extends SireneException
 {
-    public function getReason(): string
-    {
-        return 'Incorrect number of parameters or parameters are incorrectly formatted.';
-    }
 }

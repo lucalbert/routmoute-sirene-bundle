@@ -2,10 +2,6 @@
 
 namespace Routmoute\Bundle\RoutmouteSireneBundle\Exception;
 
-final class SireneEmptyParamsException extends \Exception
+final class SireneEmptyParamsException extends SireneException
 {
-    public function getReason(): string
-    {
-        return 'Array of params is empty.';
-    }
 }

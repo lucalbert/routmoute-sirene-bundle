@@ -2,10 +2,6 @@
 
 namespace Routmoute\Bundle\RoutmouteSireneBundle\Exception;
 
-final class SireneUnknownException extends \Exception
+final class SireneUnknownException extends SireneException
 {
-    public function getReason(): string
-    {
-        return 'Unknown error.';
-    }
 }
