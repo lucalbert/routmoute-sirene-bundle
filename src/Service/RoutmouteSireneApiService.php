@@ -21,7 +21,7 @@ use Routmoute\Bundle\RoutmouteSireneBundle\Exception\SireneEmptyParamsException;
 class RoutmouteSireneApiService
 {
     private const AUTH_URL = "https://api.insee.fr/token";
-    private const API_URL = "https://api.insee.fr/entreprises/sirene/V3";
+    private const API_URL = "https://api.insee.fr/entreprises/sirene/V3.11";
 
     private string $consumer_key;
     private string $consumer_secret;
